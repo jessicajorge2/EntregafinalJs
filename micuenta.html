@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Solcito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/imagenes/logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1> Mi cuenta</h1>
+    </header>
+
+
+    <div class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html" id="productos-link">Productos</a>
+        <a href="micuenta.html">Mi cuenta</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+    <section class="py-8 text-center container">
+        <form onsubmit="return validarFormulario()">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email de registro</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña </label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Mostrar contraseña</label>
+            </div>
+
+            <button type="button" onclick="validarFormulario()">Ingresar</button>
+        </form>
+
+        <script>
+            function validarFormulario() {
+                var email = document.getElementById('exampleInputEmail1').value;
+                var password = document.getElementById('exampleInputPassword1').value;
+
+                if (email === "") {
+                    alert("Por favor, ingrese un correo electrónico.");
+                    return false;
+                }
+
+
+                if (password === "") {
+                    alert("Por favor, ingrese una contraseña.");
+                    return false;
+                }
+
+                alert("Formulario enviado correctamente.");
+                return true;
+            }
+        </script>
+        <footer>
+            <p>&copy; 2023 Catálogo de Ropa para Niños / Las imagenes no son de mi propiedad</p>
+        </footer>
+    
+    </section>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
