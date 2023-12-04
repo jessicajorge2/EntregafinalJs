@@ -17,7 +17,7 @@ const cart = [];
 
 function cargarProductos(productos) {
     const catalogo = document.getElementById("catalogo");
-    catalogo.innerHTML = " ";
+    catalogo.innerHTML = "";
 
     productos.forEach(producto => {
         const productoHTML = `
@@ -108,15 +108,7 @@ function filtrarProductos() {
 
 
 const productos = [
-    { id: 1, nombre: "Vestido", categoria: "conjuntos", precio: "$2899", imagen: "imagenes/ropa 1.jpg" },
-    { id: 2, nombre: "Short", categoria: "pantalones", precio: "$1999", imagen: "imagenes/ropa 2.png" },
-    { id: 3, nombre: "Remeras", categoria: "remeras", precio: "$1999", imagen: "imagenes/ropa 3.png" },
-    { id: 4, nombre: "Pijama", categoria: "conjuntos", precio: "$4099", imagen: "imagenes/ropa 4.png" },
-    { id: 5, nombre: "Remera & Pantalon", categoria: "conjuntos", precio: "$4599", imagen: "imagenes/ropa 5.png" },
-    { id: 6, nombre: "Ajuar Bebe", categoria: "bebes", precio: "$3699", imagen: "imagenes/ropa 6.png" },
-    { id: 7, nombre: "Remera & Pollera", categoria: "conjuntos", precio: "$4899", imagen: "imagenes/ropa 7.png" },
-    { id: 8, nombre: "Vestido", categoria: "conjuntos", precio: "$3999", imagen: "imagenes/ropa 8.png" },
-    { id: 9, nombre: "Camisa & Pantalon", categoria: "conjuntos", precio: "$4899", imagen: "imagenes/ropa 9.png" },
+   
 
 ];
 
