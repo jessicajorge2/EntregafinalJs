@@ -1,0 +1,14 @@
+[
+    {"id": 1, "nombre": "Vestido", "categoría": "conjuntos", "precio": "$2899", "imagen": "imagenes/ropa 1.jpg" },
+    {"id": 2, "nombre":  "Short", "categoría": "pantalones", "precio": "$1999", "imagen":"imagenes/ropa 2.png" },
+    {"id": 3, "nombre": "Remeras", "categoría": "remeras", "precio": "$1999", "imagen": "imagenes/ropa 3.png" },
+    {"id": 4, "nombre": "Pijama", "categoría": "conjuntos", "precio": "$4099", "imagen": "imagenes/ropa 4.png" },
+    {"id": 5, "nombre":"Remera & Pantalon", "categoría": "conjuntos", "precio":"$4599", "imagen": "imagenes/ropa 5.png" },
+    {"id": 6, "nombre": "Ajuar Bebe", "categoría": "bebes", "precio": "$3699", "imagen": "imagenes/ropa 6.png" },
+    {"id": 7, "nombre": "Remera & Pollera", "categoría": "conjuntos", "precio": "$4899", "imagen":"imagenes/ropa 7.png" },
+    {"id": 8, "nombre": "Vestido", "categoría":"conjuntos", "precio":"$3999", "imagen": "imagenes/ropa 8.png" },
+    {"id": 9, "nombre": "Camisa & Pantalon", "categoría": "conjuntos","precio": "$4899", "imagen": "imagenes/ropa 9.png" }
+
+]
+
+
